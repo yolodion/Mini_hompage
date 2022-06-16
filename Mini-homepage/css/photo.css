@@ -1,0 +1,32 @@
+#photo_box {
+  overflow: auto;
+  width: 530px;
+  height: 500px;
+  position: absolute;
+  left: 12px;
+  top: 6px;
+}
+
+#photo_box h1 {
+  background-color: cornsilk;
+  width: 500px;
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#photo_box img,
+#photo_box h1 {
+  margin-left: 17px;
+}
+
+.text_box {
+  font-size: 14px;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

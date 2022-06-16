@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/pattern.png");
+  background-size: 100px;
+  background-color: #a3a3a3;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.bookcover {
+  background-color: #b4d1da;
+  border-radius: 9px;
+  position: relative;
+  width: 960px;
+  height: 660px;
+  border: 1px solid #738186;
+  margin: 100px auto;
+}
+
+.bookdot {
+  border: 2px dashed white;
+  width: 940px;
+  height: 640px;
+  border-radius: 15px;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+
+.page {
+  background-color: #eeeeee;
+  width: 920px;
+  height: 620px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 850px;
+  height: 570px;
+}
+
+.row1 {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.col1 {
+  flex: 0.2;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+#today {
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  left: 28px;
+}
+
+.col2 {
+  flex: 2;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.col2 img {
+  position: absolute;
+  left: 29px;
+  top: 30px;
+}
+
+.col2 span {
+  font-size: 11px;
+  position: absolute;
+  top: 200px;
+  left: 26px;
+}
+
+.dropdown-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 390px;
+  left: 40px;
+}
+
+.row2 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.row2_col1 {
+  flex: 0.2;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.box1 {
+  flex: 1;
+  font-size: 13px;
+  position: relative;
+}
+
+.box1 span {
+  position: absolute;
+  bottom: 15px;
+}
+
+.box2 {
+  flex: 1;
+  font-size: 13px;
+  position: relative;
+}
+
+.box2 span {
+  position: absolute;
+  bottom: 15px;
+}
+
+.box2 span a {
+  text-decoration: none;
+  color: black;
+}
+
+.box3 {
+  flex: 2;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.title_name {
+  color: #5f9cca;
+  font-size: 14px;
+}
+
+.wrap1 {
+  width: 500px;
+  height: 170px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.text_list {
+  width: 230px;
+  height: 160px;
+  display: inline-block;
+}
+
+.category1 {
+  background-color: #f3625e;
+  width: 33px;
+  height: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.text_title {
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+.category2 {
+  background-color: #667ac1;
+  width: 33px;
+  height: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.home_menu {
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+#menu_wrap1,
+#menu_wrap2 {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#menu_wrap1 span,
+#menu_wrap2 span {
+  font-size: 10px;
+  color: #6e6c6c;
+}
+
+#menu_wrap1 span strong,
+#menu_wrap2 span strong {
+  color: rgb(41, 41, 209);
+}
+
+#menu_wrap1_photo {
+  position: absolute;
+  right: 57px;
+  top: 7px;
+}
+
+#menu_wrap2_sign {
+  position: absolute;
+  right: 57px;
+  top: 7px;
+}
+
+.wrap2 {
+  width: 500px;
+  height: 320px;
+  position: absolute;
+  left: 15px;
+  top: 190px;
+}
+
+.miniroom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-color: #f9f9f9;
+}
+
+.box4 {
+  flex: 0.4;
+  position: relative;
+}
+
+.side_menu {
+  width: 70px;
+  height: 30px;
+  background-color: #3b87ab;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  padding-left: 8px;
+}
+
+.box4 a:hover {
+  color: white;
+}
+
+.box4 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+#menu_home {
+  top: 40px;
+}
+
+#menu_dairy {
+  top: 90px;
+}
+
+#menu_photo {
+  top: 140px;
+}
+
+#menu_sign {
+  top: 190px;
+}
+
+.row2_col2 {
+  flex: 2;
+  display: flex;
+}
+
+.box {
+  border: 1px solid gray;
+}

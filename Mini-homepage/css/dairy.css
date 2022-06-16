@@ -1,0 +1,106 @@
+.box3_container a {
+  text-decoration: none;
+  color: gray;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.box3_container {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 520px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.blue {
+  color: blue !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.box3_row1 {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #add2e0;
+}
+
+.box3_row2 {
+  flex: 1;
+  padding-bottom: 3px;
+}
+
+.dairy_wrap {
+  width: 520px;
+  height: 400px;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  overflow: auto;
+}
+
+.dairy_content {
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dairy_time {
+  position: absolute;
+  font-size: 11px;
+  color: #6a93ac;
+  left: 30px;
+  top: 30px;
+}
+
+.dairy_text {
+  font-size: 12px;
+}
+
+#hidden_box {
+  margin-top: 10px;
+  margin-left: 140px;
+  width: 230px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hidden_button {
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: white;
+  transition: 800ms ease all;
+}
+
+#hidden_box:hover > #hidden_button {
+  background-color: green;
+}
+
+.secret_content {
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#secret {
+  margin-top: 100px;
+  text-align: center;
+}
